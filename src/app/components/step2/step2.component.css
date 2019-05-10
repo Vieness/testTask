@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Monoton|Roboto|Khand|');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+.firstLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: Khand;
+  color: #000;
+}
+
+.secondLine, .firstLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: Khand;
+  color: #000;
+}
+
+.bold {
+  font-weight: bold;
+  display: flex;
+}
+
+.text1>p, .text2>p, .text4>p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Khand;
+}
+
+@media screen and (max-width: 700px) {
+  .text1>p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .text2>p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .text3>p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .text4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .text5>p, .text6>p, .text7>p, .text8>p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .text8>p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .comments>p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .comments2>p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .firstLine>p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .secondLine>p {
+    font-size: 11px;
+  }
+}
+
+.text1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #4e2a00;
+}
+
+.text2 {
+  font-size: 30px;
+  color: #4e2a00;
+}
+
+.text1>p {
+  margin-bottom: 0px;
+}
+
+.secondImg>p>img {
+  border-radius: 300px;
+}
+
+.secondImg {
+  text-align: center;
+}
+
+.orangeText {
+  color: #ee8100;
+}
+
+.text5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: Khand;
+}
+
+.dollar {
+  font-size: 100px;
+  color: #494949;
+}
+
+.text4>.point {
+  font-size: 100px;
+  font-weight: bold;
+  color: #494949;
+}
+
+.aDay {
+  font-size: 40px;
+  color: #494949;
+}
+
+p {
+  margin-right: 5px;
+}
+
+.text6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Khand;
+  font-size: 40px;
+}
+
+.text7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Khand;
+  font-size: 40px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.text8 {
+  font-weight: bold;
+  font-size: 70px;
+  color: #4e2a00;
+  text-align: center;
+}
+
+.comments {
+  display: flex;
+}
+
+.com1 {
+  font-family: roboto;
+  font-size: 25px;
+  color: #828282;
+}
+
+.com2 {
+  font-family: roboto;
+  color: #448fd1;
+  font-size: 25px;
+}
+
+.com3 {
+  font-family: roboto;
+  color: #cc6600;
+  font-size: 25px;
+}
